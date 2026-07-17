@@ -6,7 +6,6 @@ What's in here
 
 Terraform config that provisions a single AWS EC2 instance:
 
-
 provider.tf — AWS provider, region eu-west-2
 main.tf — EC2 instance (t2.micro) + a security group allowing inbound SSH (22) and all outbound traffic
 variable.tf — input variables (ami, instance_type)
